@@ -6,8 +6,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/FeautureFiles", glue={"StepDefinition","hooks"},monochrome=true,dryRun=false
-,tags=("@Example"))
+@CucumberOptions(features="src/test/resources/FeautureFiles/MouseHoverToFields.feature/", glue={"StepDefinition","hooks"},monochrome=true,dryRun=false
+)
 public class RunnerClass {
 
 }
